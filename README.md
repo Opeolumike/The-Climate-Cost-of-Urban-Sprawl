@@ -13,7 +13,7 @@ Depending on your environment, please follow the specific setup instructions bel
 
 
 #### Option A: Local Jupyter Notebook
-If you are running this project locally on your own machine:
+If you are running this script locally on your own machine:
 
 **1. Install Dependencies**
 Ensure you have the required packages installed in your Conda environment. It is also recommended to install these using Conda to prevent conflicts with other packages:
