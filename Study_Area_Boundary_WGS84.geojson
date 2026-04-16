@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Study_Area_Boundary_WGS84",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "MINX": 285000.0, "MINY": 90000.0, "MAXX": 305000.0, "MAXY": 100000.0, "CNTX": 295000.0, "CNTY": 95000.0, "AREA": 199999999.99999997, "PERIM": 60000.0, "HEIGHT": 10000.0, "WIDTH": 20000.0 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -3.629722006122129, 50.698228404134348 ], [ -3.632847208702999, 50.788119308613048 ], [ -3.349204057569951, 50.79174592505008 ], [ -3.346621092394468, 50.701843155536487 ], [ -3.629722006122129, 50.698228404134348 ] ] ] ] } }
+]
+}
