@@ -23,7 +23,7 @@ conda install -c conda-forge rasterio geemap earthengine-api numpy matplotlib se
 **2. Data Placement**
 Please ensure the following files are placed directly into the same working directory as the scripts:
 
-- Study_Area_Boundary.geojson
+- Study_Area_Boundary_WGS84.geojson
 - Exeter_Cranbrook_DSM_1m.tif
 - Exeter_Cranbrook_DTM_1m.tif
 
