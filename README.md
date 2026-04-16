@@ -2,7 +2,7 @@
 
 **Data Download Instructions**
 
-Due to file size limits, the high-resolution geospatial datasets required for this project are hosted externally. 
+Due to file size limits, two high-resolution geospatial datasets required for this project are hosted externally. 
 
 Please [download the raw datasets (Exeter_Cranbrook_DSM_1m.tif and Exeter_Cranbrook_DTM_1m.tif) here](https://1drv.ms/f/c/e3728fa2676589e0/IgBrFByM0gMrQJ1YtDG72NKJAbRauchZOFmX3Y6dPIc24yo?e=qSYJRS).
 
