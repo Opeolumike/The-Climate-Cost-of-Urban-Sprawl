@@ -30,6 +30,7 @@ Please ensure the following files are placed directly into the same working dire
 
 #### Option B: Google Colab
 If you are using Google Colab, create two new cells immediately after each script's header.
+
 **1. Install Dependencies**
 
 *For Script 1:*
@@ -45,6 +46,7 @@ Cell 1:  Install rasterio (Others are pre-installed):
 
 **2. Mount Google Drive**
 Upload the three files to a folder in your Google Drive. Preferably, name the folder the same name you will define when exporting the Geotiff files from Google Earth Engine's task bar.
+
 Cell 2 (in both scripts): Run
 ```bash
 from google.colab import drive
