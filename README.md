@@ -59,6 +59,9 @@ BASE_DIR = "/content/drive/MyDrive/Folder_Name/"
 ```
 **Remember to change the "Folder_Name" to the exact Google Drive folder name**.
 
+**4. Data Placement**
+Ensure the three files are placed directly into the same directory (the Drive folder) as the scripts.
+
 ## Run Order: ##
 Regardless of your environment, execute the notebook in this exact order: 
 1. Run **`Exeter_Cranbrook_Project_Script1.ipynb`** first. This will process the raw datasets and generate the intermediate files required for the next phase.
@@ -69,4 +72,4 @@ Regardless of your environment, execute the notebook in this exact order:
 After running Script 1, you will need to download the exported `Validated_Sprawl_Mask_10m.tif` file from the Google Drive folder into your local working directory before running Script 2.
 
 ### Google Colab Option
-If you set the folder as described above, all the results, including the Geotiffs and images generated will be automatically saved to the same Google Drive folder. This means you can run Script 2 without moving files around.
+If you set the folder as described above, all the results, including the Geotiffs and images generated will be automatically saved to the same Google Drive folder. This means you can run Script 2 without moving files around. However, you run Script 2, wait till the first output has been saved to the Drive folder from the GEE taskbar.
