@@ -75,4 +75,4 @@ Regardless of your environment, execute the notebook in this exact order:
 After running Script 1, you will need to download the exported `Validated_Sprawl_Mask_10m.tif` file from the Google Drive folder into your local working directory before running Script 2.
 
 ### Google Colab Option
-If you set the folder as described above, all the results, including the Geotiffs and images generated will be automatically saved to the same Google Drive folder. This means you can run Script 2 without moving files around. However, you run Script 2, wait till the first output has been saved to the Drive folder from the GEE taskbar.
+If you set the folder as described above, all the results, including the Geotiffs and images generated will be automatically saved to the same Google Drive folder. This means you can run Script 2 without moving files around. However, before you run `Exeter_Cranbrook_Project_Script2.ipynb`, wait till the first output (`Validated_Sprawl_Mask_10m.tif`) has been saved to the Drive folder from the GEE taskbar.
