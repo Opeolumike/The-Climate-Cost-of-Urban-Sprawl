@@ -21,6 +21,7 @@ Ensure you have the required packages installed in your Conda environment. It is
 conda install -c conda-forge rasterio geemap earthengine-api numpy matplotlib seaborn
 ```
 **2. Data Placement**
+
 Please ensure the following files are placed directly into the same working directory as the scripts:
 
 - Study_Area_Boundary_WGS84.geojson
@@ -45,6 +46,7 @@ Cell 1:  Install rasterio (Others are pre-installed):
 ```
 
 **2. Mount Google Drive**
+
 Upload the three files to a folder in your Google Drive. Preferably, name the folder the same name you will define when exporting the Geotiff files from Google Earth Engine's task bar.
 
 Cell 2 (in both scripts): Run
@@ -60,7 +62,8 @@ BASE_DIR = "/content/drive/MyDrive/Folder_Name/"
 **Remember to change the "Folder_Name" to the exact Google Drive folder name**.
 
 **4. Data Placement**
-Ensure the three files are placed directly into the same directory (the Drive folder) as the scripts.
+
+Ensure the three files are placed directly in the same directory as the scripts (the Drive folder).
 
 ## Run Order: ##
 Regardless of your environment, execute the notebook in this exact order: 
